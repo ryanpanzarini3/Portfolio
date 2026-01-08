@@ -155,4 +155,59 @@ document.addEventListener('DOMContentLoaded', function() {
     headings.forEach(heading => {
         heading.style.textShadow = '0 0 8px rgba(14, 165, 233, 0.3)';
     });
+
+    // Typing animation for hero "Software Engineer"
+    function setupTyping() {
+        const typingEl = document.getElementById('typing-text');
+        const cursorEl = document.getElementById('typing-cursor');
+        const fullEl = document.getElementById('full-hero-text');
+        if (!typingEl || !cursorEl || !fullEl) return;
+
+        const fullText = fullEl.textContent.trim();
+        const chars = Array.from(fullText);
+        let idx = 0;
+        const speed = 80; // ms per character (adjustable)
+
+        // Clear initial
+        typingEl.textContent = '';
+
+        function typeNext() {
+            if (idx < chars.length) {
+                typingEl.textContent += chars[idx++];
+                setTimeout(typeNext, speed + Math.random() * 40);
+            } else {
+                // After finishing, keep cursor blinking; no loop
+                cursorEl.style.animation = 'blink 1s steps(2,start) infinite';
+            }
+        }
+
+        // small delay before start
+        setTimeout(typeNext, 300);
+    }
+
+    // Start typing after translations are applied so the text is localized
+    window.addEventListener('translationsReady', setupTyping);
+
+    // Scroll Reveal Effect for Project Cards
+    const revealItems = document.querySelectorAll('.reveal-item');
+    
+    const observerOptions = {
+        threshold: 0.15,
+        rootMargin: '0px 0px -100px 0px'
+    };
+    
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry, index) => {
+            if (entry.isIntersecting) {
+                setTimeout(() => {
+                    entry.target.classList.add('visible');
+                }, index * 150); // Stagger effect
+                observer.unobserve(entry.target);
+            }
+        });
+    }, observerOptions);
+    
+    revealItems.forEach(item => {
+        observer.observe(item);
+    });
 });
