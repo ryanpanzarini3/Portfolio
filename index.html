@@ -117,118 +117,222 @@
                 </div>
             </div>
             
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-8">
-                <!-- Skill Card 1 - Front-End -->
-                <div class="skill-card-graphic group relative">
-                    <div class="absolute inset-0 bg-gradient-to-r from-primary/20 to-primary/0 rounded-2xl blur-xl opacity-0 group-hover:opacity-100 transition-all duration-500"></div>
-                    <div class="relative bg-gradient-to-br from-dark to-darker p-6 sm:p-8 rounded-2xl border border-gray-700 hover:border-primary/50 transition-all duration-300 overflow-hidden h-full">
-                        <!-- Background pattern -->
-                        <div class="absolute top-0 right-0 w-24 h-24 bg-primary/10 rounded-full blur-2xl -z-10 group-hover:bg-primary/20 transition-all duration-300"></div>
-                        
-                        <div class="flex flex-col items-center text-center relative z-10">
-                            <div class="w-14 sm:w-16 h-14 sm:h-16 rounded-full bg-primary/20 flex items-center justify-center mb-4 sm:mb-6 group-hover:bg-primary/30 transition-all duration-300 group-hover:scale-110">
-                                <i data-feather="code" class="text-primary w-6 sm:w-8 h-6 sm:h-8"></i>
-                            </div>
-                            <h3 class="text-lg sm:text-xl font-bold text-white mb-3 group-hover:text-primary transition-colors duration-300" data-i18n="skills.frontend">Front-End</h3>
-                            <p class="text-xs sm:text-sm text-gray-400 mb-4">HTML5, CSS3, JavaScript, React</p>
+            <!-- Main Grid: Left (Skills Cards) | Right (Chart) -->
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-start">
+                
+                <!-- LEFT SIDE: Skills Cards -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-8">
+                    <!-- Skill Card 1 - Front-End -->
+                    <div class="skill-card-graphic group relative">
+                        <div class="absolute inset-0 bg-gradient-to-r from-primary/20 to-primary/0 rounded-2xl blur-xl opacity-0 group-hover:opacity-100 transition-all duration-500"></div>
+                        <div class="relative bg-gradient-to-br from-dark to-darker p-6 sm:p-8 rounded-2xl border border-gray-700 hover:border-primary/50 transition-all duration-300 overflow-hidden h-full">
+                            <!-- Background pattern -->
+                            <div class="absolute top-0 right-0 w-24 h-24 bg-primary/10 rounded-full blur-2xl -z-10 group-hover:bg-primary/20 transition-all duration-300"></div>
                             
-                            <!-- Skill indicator bars -->
-                            <div class="w-full">
-                                <div class="flex items-center justify-between mb-2">
-                                    <span class="text-xs text-gray-500">Proficiency</span>
-                                    <span class="text-xs font-bold text-primary">95%</span>
+                            <div class="flex flex-col items-center text-center relative z-10">
+                                <div class="w-14 sm:w-16 h-14 sm:h-16 rounded-full bg-primary/20 flex items-center justify-center mb-4 sm:mb-6 group-hover:bg-primary/30 transition-all duration-300 group-hover:scale-110">
+                                    <i data-feather="code" class="text-primary w-6 sm:w-8 h-6 sm:h-8"></i>
                                 </div>
-                                <div class="h-2 bg-gray-800 rounded-full overflow-hidden">
-                                    <div class="h-full bg-gradient-to-r from-primary to-secondary skill-progress" style="width: 95%"></div>
+                                <h3 class="text-lg sm:text-xl font-bold text-white mb-3 group-hover:text-primary transition-colors duration-300" data-i18n="skills.frontend">Front-End</h3>
+                                <p class="text-xs sm:text-sm text-gray-400 mb-4">HTML5, CSS3, JavaScript, React</p>
+                                
+                                <!-- Skill indicator bars -->
+                                <div class="w-full">
+                                    <div class="flex items-center justify-between mb-2">
+                                        <span class="text-xs text-gray-500">Proficiency</span>
+                                        <span class="text-xs font-bold text-primary">95%</span>
+                                    </div>
+                                    <div class="h-2 bg-gray-800 rounded-full overflow-hidden">
+                                        <div class="h-full bg-gradient-to-r from-primary to-secondary skill-progress" style="width: 95%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Skill Card 2 - Back-End -->
+                    <div class="skill-card-graphic group relative">
+                        <div class="absolute inset-0 bg-gradient-to-r from-primary/20 to-primary/0 rounded-2xl blur-xl opacity-0 group-hover:opacity-100 transition-all duration-500"></div>
+                        <div class="relative bg-gradient-to-br from-dark to-darker p-6 sm:p-8 rounded-2xl border border-gray-700 hover:border-primary/50 transition-all duration-300 overflow-hidden h-full">
+                            <!-- Background pattern -->
+                            <div class="absolute top-0 right-0 w-24 h-24 bg-primary/10 rounded-full blur-2xl -z-10 group-hover:bg-primary/20 transition-all duration-300"></div>
+                            
+                            <div class="flex flex-col items-center text-center relative z-10">
+                                <div class="w-14 sm:w-16 h-14 sm:h-16 rounded-full bg-primary/20 flex items-center justify-center mb-4 sm:mb-6 group-hover:bg-primary/30 transition-all duration-300 group-hover:scale-110">
+                                    <i data-feather="cpu" class="text-primary w-6 sm:w-8 h-6 sm:h-8"></i>
+                                </div>
+                                <h3 class="text-lg sm:text-xl font-bold text-white mb-3 group-hover:text-primary transition-colors duration-300" data-i18n="skills.backend">Back-End</h3>
+                                <p class="text-xs sm:text-sm text-gray-400 mb-4">Node.js, Java, Python, C#</p>
+                                
+                                <!-- Skill indicator bars -->
+                                <div class="w-full">
+                                    <div class="flex items-center justify-between mb-2">
+                                        <span class="text-xs text-gray-500">Proficiency</span>
+                                        <span class="text-xs font-bold text-primary">60%</span>
+                                    </div>
+                                    <div class="h-2 bg-gray-800 rounded-full overflow-hidden">
+                                        <div class="h-full bg-gradient-to-r from-primary to-secondary skill-progress" style="width: 60%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Skill Card 3 - Data Analysis -->
+                    <div class="skill-card-graphic group relative">
+                        <div class="absolute inset-0 bg-gradient-to-r from-primary/20 to-primary/0 rounded-2xl blur-xl opacity-0 group-hover:opacity-100 transition-all duration-500"></div>
+                        <div class="relative bg-gradient-to-br from-dark to-darker p-8 rounded-2xl border border-gray-700 hover:border-primary/50 transition-all duration-300 overflow-hidden h-full">
+                            <!-- Background pattern -->
+                            <div class="absolute top-0 right-0 w-24 h-24 bg-primary/10 rounded-full blur-2xl -z-10 group-hover:bg-primary/20 transition-all duration-300"></div>
+                            
+                            <div class="flex flex-col items-center text-center relative z-10">
+                                <div class="w-16 h-16 rounded-full bg-primary/20 flex items-center justify-center mb-6 group-hover:bg-primary/30 transition-all duration-300 group-hover:scale-110">
+                                    <i data-feather="database" class="text-primary w-8 h-8"></i>
+                                </div>
+                                <h3 class="text-xl font-bold text-white mb-3 group-hover:text-primary transition-colors duration-300" data-i18n="skills.data">Data Analysis</h3>
+                                <p class="text-sm text-gray-400 mb-4">Python, SQL, Pandas, Oracle, MongoDB</p>
+                                
+                                <!-- Skill indicator bars -->
+                                <div class="w-full">
+                                    <div class="flex items-center justify-between mb-2">
+                                        <span class="text-xs text-gray-500">Proficiency</span>
+                                        <span class="text-xs font-bold text-primary">80%</span>
+                                    </div>
+                                    <div class="h-2 bg-gray-800 rounded-full overflow-hidden">
+                                        <div class="h-full bg-gradient-to-r from-primary to-secondary skill-progress" style="width: 80%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Skill Card 4 - Systems -->
+                    <div class="skill-card-graphic group relative">
+                        <div class="absolute inset-0 bg-gradient-to-r from-primary/20 to-primary/0 rounded-2xl blur-xl opacity-0 group-hover:opacity-100 transition-all duration-500"></div>
+                        <div class="relative bg-gradient-to-br from-dark to-darker p-8 rounded-2xl border border-gray-700 hover:border-primary/50 transition-all duration-300 overflow-hidden h-full">
+                            <!-- Background pattern -->
+                            <div class="absolute top-0 right-0 w-24 h-24 bg-primary/10 rounded-full blur-2xl -z-10 group-hover:bg-primary/20 transition-all duration-300"></div>
+                            
+                            <div class="flex flex-col items-center text-center relative z-10">
+                                <div class="w-16 h-16 rounded-full bg-primary/20 flex items-center justify-center mb-6 group-hover:bg-primary/30 transition-all duration-300 group-hover:scale-110">
+                                    <i data-feather="hard-drive" class="text-primary w-8 h-8"></i>
+                                </div>
+                                <h3 class="text-xl font-bold text-white mb-3 group-hover:text-primary transition-colors duration-300" data-i18n="skills.systems">Systems</h3>
+                                <p class="text-sm text-gray-400 mb-4">Linux, Docker, AWS, Windows</p>
+                                
+                                <!-- Skill indicator bars -->
+                                <div class="w-full">
+                                    <div class="flex items-center justify-between mb-2">
+                                        <span class="text-xs text-gray-500">Proficiency</span>
+                                        <span class="text-xs font-bold text-primary">75%</span>
+                                    </div>
+                                    <div class="h-2 bg-gray-800 rounded-full overflow-hidden">
+                                        <div class="h-full bg-gradient-to-r from-primary to-secondary skill-progress" style="width: 75%"></div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 
-                <!-- Skill Card 2 - Back-End -->
-                <div class="skill-card-graphic group relative">
-                    <div class="absolute inset-0 bg-gradient-to-r from-primary/20 to-primary/0 rounded-2xl blur-xl opacity-0 group-hover:opacity-100 transition-all duration-500"></div>
-                    <div class="relative bg-gradient-to-br from-dark to-darker p-6 sm:p-8 rounded-2xl border border-gray-700 hover:border-primary/50 transition-all duration-300 overflow-hidden h-full">
-                        <!-- Background pattern -->
-                        <div class="absolute top-0 right-0 w-24 h-24 bg-primary/10 rounded-full blur-2xl -z-10 group-hover:bg-primary/20 transition-all duration-300"></div>
-                        
-                        <div class="flex flex-col items-center text-center relative z-10">
-                            <div class="w-14 sm:w-16 h-14 sm:h-16 rounded-full bg-primary/20 flex items-center justify-center mb-4 sm:mb-6 group-hover:bg-primary/30 transition-all duration-300 group-hover:scale-110">
-                                <i data-feather="cpu" class="text-primary w-6 sm:w-8 h-6 sm:h-8"></i>
+                <!-- RIGHT SIDE: Drawers (Soft Skills & About Me) -->
+                <div class="space-y-4">
+                    
+                    <!-- Drawer 1: Soft Skills -->
+                    <button class="drawer-toggle w-full flex items-center justify-between p-6 bg-gradient-to-r from-dark to-darker border border-gray-700 rounded-2xl hover:border-secondary/50 transition-all duration-300 group" data-drawer="softskills">
+                        <div class="flex items-center gap-4">
+                            <i data-feather="star" class="text-secondary w-6 h-6 group-hover:scale-110 transition-transform"></i>
+                            <div class="text-left">
+                                <h3 class="text-xl font-bold text-white" data-i18n="softskills.drawer_title">Ver Soft Skills</h3>
                             </div>
-                            <h3 class="text-lg sm:text-xl font-bold text-white mb-3 group-hover:text-primary transition-colors duration-300" data-i18n="skills.backend">Back-End</h3>
-                            <p class="text-xs sm:text-sm text-gray-400 mb-4">Node.js, Java, Python, C#</p>
-                            
-                            <!-- Skill indicator bars -->
-                            <div class="w-full">
-                                <div class="flex items-center justify-between mb-2">
-                                    <span class="text-xs text-gray-500">Proficiency</span>
-                                    <span class="text-xs font-bold text-primary">60%</span>
+                        </div>
+                        <svg class="w-6 h-6 text-secondary transition-transform duration-300 drawer-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+                        </svg>
+                    </button>
+                    
+                    <!-- Drawer Content: Soft Skills -->
+                    <div class="drawer-content hidden overflow-hidden transition-all duration-300" id="softskills-content" style="max-height: 0;">
+                        <div class="p-6 bg-dark/50 border border-gray-700/50 border-t-0 rounded-b-2xl">
+                            <div class="grid grid-cols-2 gap-4">
+                                <!-- Soft Skill 1 -->
+                                <div class="flex items-center gap-3 p-4 rounded-lg bg-darker/50 border border-gray-700/30 hover:border-secondary/50 transition-all">
+                                    <i data-feather="heart" class="text-secondary w-5 h-5"></i>
+                                    <div>
+                                        <p class="text-sm font-semibold text-white" data-i18n="softskills.emotional">Emotional Intelligence</p>
+                                    </div>
                                 </div>
-                                <div class="h-2 bg-gray-800 rounded-full overflow-hidden">
-                                    <div class="h-full bg-gradient-to-r from-primary to-secondary skill-progress" style="width: 60%"></div>
+                                
+                                <!-- Soft Skill 2 -->
+                                <div class="flex items-center gap-3 p-4 rounded-lg bg-darker/50 border border-gray-700/30 hover:border-secondary/50 transition-all">
+                                    <i data-feather="message-circle" class="text-secondary w-5 h-5"></i>
+                                    <div>
+                                        <p class="text-sm font-semibold text-white" data-i18n="softskills.communication">Communication</p>
+                                    </div>
+                                </div>
+                                
+                                <!-- Soft Skill 3 -->
+                                <div class="flex items-center gap-3 p-4 rounded-lg bg-darker/50 border border-gray-700/30 hover:border-secondary/50 transition-all">
+                                    <i data-feather="users" class="text-secondary w-5 h-5"></i>
+                                    <div>
+                                        <p class="text-sm font-semibold text-white" data-i18n="softskills.teamwork">Teamwork</p>
+                                    </div>
+                                </div>
+                                
+                                <!-- Soft Skill 4 -->
+                                <div class="flex items-center gap-3 p-4 rounded-lg bg-darker/50 border border-gray-700/30 hover:border-secondary/50 transition-all">
+                                    <i data-feather="zap" class="text-secondary w-5 h-5"></i>
+                                    <div>
+                                        <p class="text-sm font-semibold text-white" data-i18n="softskills.pressure">Pressure Management</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    
+                    <!-- Drawer 2: About Me -->
+                    <button class="drawer-toggle w-full flex items-center justify-between p-6 bg-gradient-to-r from-dark to-darker border border-gray-700 rounded-2xl hover:border-primary/50 transition-all duration-300 group" data-drawer="about">
+                        <div class="flex items-center gap-4">
+                            <i data-feather="user" class="text-primary w-6 h-6 group-hover:scale-110 transition-transform"></i>
+                            <div class="text-left">
+                                <h3 class="text-xl font-bold text-white" data-i18n="about.drawer_title">Sobre Mim</h3>
+                            </div>
+                        </div>
+                        <svg class="w-6 h-6 text-primary transition-transform duration-300 drawer-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+                        </svg>
+                    </button>
+                    
+                    <!-- Drawer Content: About Me -->
+                    <div class="drawer-content hidden overflow-hidden transition-all duration-300" id="about-content" style="max-height: 0;">
+                        <div class="p-6 bg-dark/50 border border-gray-700/50 border-t-0 rounded-b-2xl space-y-4">
+                            <p class="text-gray-300 text-sm leading-relaxed" data-i18n="about.description">
+                                Sou Ryan Panzarini Paes, graduando do 6º semestre da Universidade Cesumar com foco em desenvolvimento de software. Atualmente trabalho como analista de dados, aplicando habilidades em projetos práticos.
+                            </p>
+                            <div class="space-y-3">
+                                <div class="flex items-start gap-3 p-3 rounded-lg bg-darker/50 border border-gray-700/30">
+                                    <i data-feather="briefcase" class="text-primary w-5 h-5 mt-0.5 flex-shrink-0"></i>
+                                    <div>
+                                        <p class="text-xs text-gray-500 uppercase tracking-wide" data-i18n="about.experience">Experience</p>
+                                        <p class="text-sm text-white">Data Analysis • Marketing • Sales</p>
+                                    </div>
+                                </div>
+                                <div class="flex items-start gap-3 p-3 rounded-lg bg-darker/50 border border-gray-700/30">
+                                    <i data-feather="award" class="text-primary w-5 h-5 mt-0.5 flex-shrink-0"></i>
+                                    <div>
+                                        <p class="text-xs text-gray-500 uppercase tracking-wide" data-i18n="about.education">Education</p>
+                                        <p class="text-sm text-white">Cesumar University • 6º Semester</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="w-full mt-4 py-3 bg-primary/20 border border-primary/50 text-primary rounded-lg font-semibold hover:bg-primary/30 transition-all duration-300" data-i18n="about.cv_button">
+                                Download CV
+                            </button>
+                        </div>
+                    </div>
+                    
                 </div>
                 
-                <!-- Skill Card 3 - Data Analysis -->
-                <div class="skill-card-graphic group relative">
-                    <div class="absolute inset-0 bg-gradient-to-r from-primary/20 to-primary/0 rounded-2xl blur-xl opacity-0 group-hover:opacity-100 transition-all duration-500"></div>
-                    <div class="relative bg-gradient-to-br from-dark to-darker p-8 rounded-2xl border border-gray-700 hover:border-primary/50 transition-all duration-300 overflow-hidden h-full">
-                        <!-- Background pattern -->
-                        <div class="absolute top-0 right-0 w-24 h-24 bg-primary/10 rounded-full blur-2xl -z-10 group-hover:bg-primary/20 transition-all duration-300"></div>
-                        
-                        <div class="flex flex-col items-center text-center relative z-10">
-                            <div class="w-16 h-16 rounded-full bg-primary/20 flex items-center justify-center mb-6 group-hover:bg-primary/30 transition-all duration-300 group-hover:scale-110">
-                                <i data-feather="database" class="text-primary w-8 h-8"></i>
-                            </div>
-                            <h3 class="text-xl font-bold text-white mb-3 group-hover:text-primary transition-colors duration-300" data-i18n="skills.data">Data Analysis</h3>
-                            <p class="text-sm text-gray-400 mb-4">Python, SQL, Pandas, Oracle, MongoDB</p>
-                            
-                            <!-- Skill indicator bars -->
-                            <div class="w-full">
-                                <div class="flex items-center justify-between mb-2">
-                                    <span class="text-xs text-gray-500">Proficiency</span>
-                                    <span class="text-xs font-bold text-primary">80%</span>
-                                </div>
-                                <div class="h-2 bg-gray-800 rounded-full overflow-hidden">
-                                    <div class="h-full bg-gradient-to-r from-primary to-secondary skill-progress" style="width: 80%"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Skill Card 4 - Systems -->
-                <div class="skill-card-graphic group relative">
-                    <div class="absolute inset-0 bg-gradient-to-r from-primary/20 to-primary/0 rounded-2xl blur-xl opacity-0 group-hover:opacity-100 transition-all duration-500"></div>
-                    <div class="relative bg-gradient-to-br from-dark to-darker p-8 rounded-2xl border border-gray-700 hover:border-primary/50 transition-all duration-300 overflow-hidden h-full">
-                        <!-- Background pattern -->
-                        <div class="absolute top-0 right-0 w-24 h-24 bg-primary/10 rounded-full blur-2xl -z-10 group-hover:bg-primary/20 transition-all duration-300"></div>
-                        
-                        <div class="flex flex-col items-center text-center relative z-10">
-                            <div class="w-16 h-16 rounded-full bg-primary/20 flex items-center justify-center mb-6 group-hover:bg-primary/30 transition-all duration-300 group-hover:scale-110">
-                                <i data-feather="hard-drive" class="text-primary w-8 h-8"></i>
-                            </div>
-                            <h3 class="text-xl font-bold text-white mb-3 group-hover:text-primary transition-colors duration-300" data-i18n="skills.systems">Systems</h3>
-                            <p class="text-sm text-gray-400 mb-4">Linux, Docker, AWS, Windows</p>
-                            
-                            <!-- Skill indicator bars -->
-                            <div class="w-full">
-                                <div class="flex items-center justify-between mb-2">
-                                    <span class="text-xs text-gray-500">Proficiency</span>
-                                    <span class="text-xs font-bold text-primary">75%</span>
-                                </div>
-                                <div class="h-2 bg-gray-800 rounded-full overflow-hidden">
-                                    <div class="h-full bg-gradient-to-r from-primary to-secondary skill-progress" style="width: 75%"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </section>
