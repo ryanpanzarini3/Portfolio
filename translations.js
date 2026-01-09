@@ -54,6 +54,27 @@ const translations = {
       data: 'Análise de Dados',
       systems: 'Sistemas'
     },
+    softskills: {
+      drawer_title: 'Ver Soft Skills',
+      emotional: 'Inteligência Emocional',
+      communication: 'Comunicação',
+      teamwork: 'Trabalho em Equipe',
+      pressure: 'Capacidade sob Pressão'
+    },
+    about: {
+      drawer_title: 'Sobre Mim',
+      description: 'Sou Ryan Panzarini Paes, graduando do 6º semestre da Universidade Cesumar com foco em desenvolvimento de software. Atualmente trabalho como analista de dados, aplicando habilidades em projetos práticos.',
+      experience: 'Experience',
+      education: 'Education',
+      cv_button: 'Download CV',
+      title: 'PERFIL DE ENGENHARIA',
+      text: 'Sou Ryan Panzarini Paes, graduando do 6º semestre da Universidade Cesumar em Ponta Grossa/PR, com foco no desenvolvimento de software. Atualmente, atuo como analista de dados, aplicando e aprimorando minhas habilidades em projetos práticos. Além da graduação, concluí diversos cursos complementares em linguagens e tecnologias como Python e Node.js, o que reforça minha paixão por aprendizado contínuo e inovação. Meu objetivo é consolidar uma carreira de sucesso, contribuindo com soluções eficientes e criativas no mercado de tecnologia.',
+      cv: 'Download CV',
+      log: 'SYSTEM LOG',
+      experience1: 'Estágio Análise de Dados',
+      experience2: 'Marketing e Sistemas',
+      experience3: 'Vendedor Externo'
+    },
     projects: {
       title: 'PROJETOS DE ENGENHARIA',
       includipg: {
@@ -76,15 +97,6 @@ const translations = {
     common: {
       live: 'Demo Ao Vivo',
       source: 'Código Fonte'
-    },
-    about: {
-      title: 'PERFIL DE ENGENHARIA',
-      text: 'Sou Ryan Panzarini Paes, graduando do 6º semestre da Universidade Cesumar em Ponta Grossa/PR, com foco no desenvolvimento de software. Atualmente, atuo como analista de dados, aplicando e aprimorando minhas habilidades em projetos práticos. Além da graduação, concluí diversos cursos complementares em linguagens e tecnologias como Python e Node.js, o que reforça minha paixão por aprendizado contínuo e inovação. Meu objetivo é consolidar uma carreira de sucesso, contribuindo com soluções eficientes e criativas no mercado de tecnologia.',
-      cv: 'Download CV',
-      log: 'SYSTEM LOG',
-      experience1: 'Estágio Análise de Dados',
-      experience2: 'Marketing e Sistemas',
-      experience3: 'Vendedor Externo'
     },
     contact: {
       title: 'CONEXÃO DO SISTEMA',
@@ -188,6 +200,27 @@ const translations = {
       backend: 'Back-End',
       data: 'Análisis de Datos',
       systems: 'Sistemas'
+    },
+    softskills: {
+      drawer_title: 'Ver Soft Skills',
+      emotional: 'Inteligencia Emocional',
+      communication: 'Comunicación',
+      teamwork: 'Trabajo en Equipo',
+      pressure: 'Manejo de la Presión'
+    },
+    about: {
+      drawer_title: 'Sobre Mí',
+      description: 'Soy Ryan Panzarini Paes, estudiante de 6º semestre en la Universidad Cesumar enfocado en desarrollo de software. Actualmente trabajo como analista de datos, aplicando habilidades en proyectos prácticos.',
+      experience: 'Experiencia',
+      education: 'Educación',
+      cv_button: 'Descargar CV',
+      title: 'PERFIL DE INGENIERÍA',
+      text: 'Soy Ryan Panzarini Paes, estudiante de 6º semestre en la Universidad Cesumar en Ponta Grossa/PR, enfocado en desarrollo de software. Actualmente trabajo como analista de datos, aplicando y mejorando mis habilidades en proyectos prácticos. Además de mis estudios, he completado varios cursos complementarios en lenguajes y tecnologías como Python y Node.js, lo que refuerza mi pasión por el aprendizaje continuo e innovación. Mi objetivo es construir una carrera exitosa, contribuyendo con soluciones eficientes y creativas al mercado de la tecnología.',
+      cv: 'Descargar CV',
+      log: 'SYSTEM LOG',
+      experience1: 'Pasantía en Análisis de Datos',
+      experience2: 'Marketing y Sistemas',
+      experience3: 'Vendedor Externo'
     },
     projects: {
       title: 'PROYECTOS',
@@ -319,6 +352,27 @@ const translations = {
       backend: 'Back-End',
       data: 'Data Analysis',
       systems: 'Systems'
+    },
+    softskills: {
+      drawer_title: 'View Soft Skills',
+      emotional: 'Emotional Intelligence',
+      communication: 'Communication',
+      teamwork: 'Teamwork',
+      pressure: 'Pressure Management'
+    },
+    about: {
+      drawer_title: 'About Me',
+      description: 'I\'m Ryan Panzarini Paes, a 6th semester student at Cesumar University focusing on software development. I currently work as a data analyst, applying skills in practical projects.',
+      experience: 'Experience',
+      education: 'Education',
+      cv_button: 'Download CV',
+      title: 'ENGINEERING PROFILE',
+      text: 'I\'m Ryan Panzarini Paes, a 6th semester student at Cesumar University in Ponta Grossa/PR, with a focus on software development. I currently work as a data analyst, applying and improving my skills in practical projects. In addition to my degree, I have completed several complementary courses in languages and technologies such as Python and Node.js, which reinforces my passion for continuous learning and innovation. My goal is to build a successful career, contributing with efficient and creative solutions to the technology market.',
+      cv: 'Download CV',
+      log: 'SYSTEM LOG',
+      experience1: 'Data Analysis Internship',
+      experience2: 'Marketing and Systems',
+      experience3: 'External Sales'
     },
     projects: {
       title: 'ENGINEERING PROJECTS',
@@ -454,6 +508,27 @@ const translations = {
       backend: 'Back-End',
       data: 'Analisi Dati',
       systems: 'Sistemi'
+    },
+    softskills: {
+      drawer_title: 'Visualizza Soft Skills',
+      emotional: 'Intelligenza Emotiva',
+      communication: 'Comunicazione',
+      teamwork: 'Lavoro di Squadra',
+      pressure: 'Gestione della Pressione'
+    },
+    about: {
+      drawer_title: 'Su di Me',
+      description: 'Sono Ryan Panzarini Paes, studente del 6º semestre presso l\'Università Cesumar focalizzato sullo sviluppo software. Attualmente lavoro come analista di dati, applicando competenze in progetti pratici.',
+      experience: 'Esperienza',
+      education: 'Istruzione',
+      cv_button: 'Scarica CV',
+      title: 'PROFILO INGEGNERISTICO',
+      text: 'Sono Ryan Panzarini Paes, studente del 6º semestre presso l\'Università Cesumar a Ponta Grossa/PR, focalizzato sullo sviluppo software. Attualmente lavoro come analista di dati, applicando e migliorando le mie competenze in progetti pratici. Oltre ai miei studi, ho completato diversi corsi complementari in linguaggi e tecnologie come Python e Node.js, il che rafforza la mia passione per l\'apprendimento continuo e l\'innovazione. Il mio obiettivo è costruire una carriera di successo, contribuendo con soluzioni efficienti e creative al mercato della tecnologia.',
+      cv: 'Scarica CV',
+      log: 'SYSTEM LOG',
+      experience1: 'Tirocinio Analisi Dati',
+      experience2: 'Marketing e Sistemi',
+      experience3: 'Venditore Esterno'
     },
     projects: {
       title: 'PROGETTI DI INGEGNERIA',
