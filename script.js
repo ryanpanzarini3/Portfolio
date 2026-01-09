@@ -320,4 +320,41 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Initialize carousels on page load
     initializeCarousels();
+
+    // Drawer/Accordion functionality
+    const drawerToggles = document.querySelectorAll('.drawer-toggle');
+    
+    drawerToggles.forEach(toggle => {
+        toggle.addEventListener('click', function(e) {
+            e.preventDefault();
+            const drawerId = this.getAttribute('data-drawer');
+            const content = document.getElementById(`${drawerId}-content`);
+            const icon = this.querySelector('.drawer-icon');
+            
+            // Close other drawers
+            drawerToggles.forEach(btn => {
+                if (btn !== this) {
+                    const otherId = btn.getAttribute('data-drawer');
+                    const otherContent = document.getElementById(`${otherId}-content`);
+                    const otherIcon = btn.querySelector('.drawer-icon');
+                    otherContent.classList.add('hidden');
+                    otherIcon.style.transform = 'rotate(0deg)';
+                    otherContent.style.maxHeight = '0px';
+                }
+            });
+            
+            // Toggle current drawer
+            const isOpen = !content.classList.contains('hidden');
+            
+            if (isOpen) {
+                content.classList.add('hidden');
+                content.style.maxHeight = '0px';
+                icon.style.transform = 'rotate(0deg)';
+            } else {
+                content.classList.remove('hidden');
+                content.style.maxHeight = content.scrollHeight + 'px';
+                icon.style.transform = 'rotate(180deg)';
+            }
+        });
+    });
 });
