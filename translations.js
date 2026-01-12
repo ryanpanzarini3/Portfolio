@@ -5,6 +5,7 @@ const translations = {
       skills: 'Skills',
       projects: 'Projetos',
       about: 'Sobre',
+      sql: 'SQL',
       contact: 'Contato'
     },
     hero: {
@@ -63,7 +64,7 @@ const translations = {
     },
     about: {
       drawer_title: 'Sobre Mim',
-      description: 'Sou Ryan Panzarini Paes, graduando do 6º semestre da Universidade Cesumar com foco em desenvolvimento de software. Atualmente trabalho como analista de dados, aplicando habilidades em projetos práticos.',
+      description: 'Sou Ryan Panzarini Paes, graduando do 6º semestre da Universidade Cesumar em Ponta Grossa/PR, com foco no desenvolvimento de software. Atualmente, atuo como analista de dados, aplicando e aprimorando minhas habilidades em projetos práticos. Além da graduação, concluí diversos cursos complementares em linguagens e tecnologias como Python e Node.js, o que reforça minha paixão por aprendizado contínuo e inovação. Meu objetivo é consolidar uma carreira de sucesso, contribuindo com soluções eficientes e criativas no mercado de tecnologia.',
       experience: 'Experience',
       education: 'Education',
       cv_button: 'Download CV',
@@ -121,6 +122,22 @@ const translations = {
       cta_text: 'Quer colaborar ou viu algo interessante?',
       cta_button: 'Entre em Contato'
     },
+    sql: {
+      title: 'CONSULTAS SQL',
+      subtitle: 'Exemplos de consultas SQL demonstrando minhas habilidades em manipulação e análise de dados.',
+      tasy: {
+        title: 'Consultas em Tasy'
+      },
+      optimization: {
+        title: 'Otimizações'
+      },
+      reports: {
+        title: 'Relatórios'
+      },
+      complex: {
+        title: 'Consultas Complexas'
+      }
+    },
     footer: {
       social: 'Social',
       copyright: '© 2026 Ryan Panzarini Paes. Todos os sistemas operacionais.'
@@ -152,6 +169,7 @@ const translations = {
       skills: 'Habilidades',
       projects: 'Proyectos',
       about: 'Sobre mí',
+      sql: 'SQL',
       contact: 'Contacto'
     },
     hero: {
@@ -245,15 +263,6 @@ const translations = {
       live: 'Demo en Vivo',
       source: 'Código Fuente'
     },
-    about: {
-      title: 'PERFIL',
-      text: 'Soy Ryan Panzarini Paes, estudiante del 6º semestre en la Universidad Cesumar en Ponta Grossa/PR, enfocado en desarrollo de software. Actualmente trabajo como analista de datos, aplicando y mejorando mis habilidades en proyectos prácticos.',
-      cv: 'Descargar CV',
-      log: 'SYSTEM LOG',
-      experience1: 'Pasantía en Análisis de Datos',
-      experience2: 'Marketing y Sistemas',
-      experience3: 'Vendedor Externo'
-    },
     contact: {
       title: 'CONECTAR',
       email: { title: 'Correo' },
@@ -272,6 +281,22 @@ const translations = {
       },
       cta_text: '¿Quieres colaborar o viste algo interesante?',
       cta_button: 'Contactame'
+    },
+    sql: {
+      title: 'CONSULTAS SQL',
+      subtitle: 'Ejemplos de consultas SQL que demuestran mis habilidades en manipulación y análisis de datos.',
+      tasy: {
+        title: 'Consultas en Tasy'
+      },
+      optimization: {
+        title: 'Optimizaciones'
+      },
+      reports: {
+        title: 'Reportes'
+      },
+      complex: {
+        title: 'Consultas Complejas'
+      }
     },
     footer: {
       social: 'Social',
@@ -304,6 +329,7 @@ const translations = {
       skills: 'Skills',
       projects: 'Projects',
       about: 'About',
+      sql: 'SQL',
       contact: 'Contact'
     },
     hero: {
@@ -367,7 +393,7 @@ const translations = {
       education: 'Education',
       cv_button: 'Download CV',
       title: 'ENGINEERING PROFILE',
-      text: 'I\'m Ryan Panzarini Paes, a 6th semester student at Cesumar University in Ponta Grossa/PR, with a focus on software development. I currently work as a data analyst, applying and improving my skills in practical projects. In addition to my degree, I have completed several complementary courses in languages and technologies such as Python and Node.js, which reinforces my passion for continuous learning and innovation. My goal is to build a successful career, contributing with efficient and creative solutions to the technology market.',
+      text: 'I’m Ryan Panzarini Paes, a 5th-semester undergraduate student at Universidade Cesumar in Ponta Grossa/PR, specializing in software development. Currently, I work as a PHP and SQL developer, applying and refining my skills in practical projects. Alongside my degree, I have completed several additional courses in languages and technologies such as Python and Node.js, demonstrating my passion for continuous learning and innovation. My goal is to build a successful career by contributing efficient and creative solutions to the technology market.',
       cv: 'Download CV',
       log: 'SYSTEM LOG',
       experience1: 'Data Analysis Internship',
@@ -397,15 +423,6 @@ const translations = {
       live: 'Live Demo',
       source: 'Source Code'
     },
-    about: {
-      title: 'ENGINEERING PROFILE',
-      text: 'I am Ryan Panzarini Paes, a 6th semester student at Cesumar University in Ponta Grossa/PR, focused on software development. Currently, I work as a data analyst, applying and improving my skills in practical projects. In addition to my degree, I have completed several complementary courses in languages and technologies such as Python and Node.js, which reinforces my passion for continuous learning and innovation. My goal is to build a successful career, contributing with efficient and creative solutions in the technology market.',
-      cv: 'Download CV',
-      log: 'SYSTEM LOG',
-      experience1: 'Data Analysis Internship',
-      experience2: 'Marketing and Systems',
-      experience3: 'External Sales'
-    },
     contact: {
       title: 'SYSTEM CONNECTION',
       email: {
@@ -428,6 +445,22 @@ const translations = {
       },
       cta_text: 'Want to collaborate or seen something interesting?',
       cta_button: 'Get In Touch'
+    },
+    sql: {
+      title: 'SQL QUERIES',
+      subtitle: 'Examples of SQL queries demonstrating my skills in data manipulation and analysis.',
+      tasy: {
+        title: 'Tasy Queries'
+      },
+      optimization: {
+        title: 'Optimizations'
+      },
+      reports: {
+        title: 'Reports'
+      },
+      complex: {
+        title: 'Complex Queries'
+      }
     },
     footer: {
       social: 'Social',
@@ -460,6 +493,7 @@ const translations = {
       skills: 'Competenze',
       projects: 'Progetti',
       about: 'Chi Sono',
+      sql: 'SQL',
       contact: 'Contatti'
     },
     hero: {
@@ -553,10 +587,7 @@ const translations = {
       live: 'Demo Live',
       source: 'Codice Sorgente'
     },
-    about: {
-      title: 'PROFILO INGEGNERISTICO',
-      text: 'Sono Ryan Panzarini Paes, studente del 6º semestre presso l\'Università Cesumar a Ponta Grossa/PR, focalizzato sullo sviluppo software. Attualmente lavoro come analista dati, applicando e migliorando le mie competenze in progetti pratici. Oltre alla laurea, ho completato diversi corsi complementari in linguaggi e tecnologie come Python e Node.js, il che rafforza la mia passione per l\'apprendimento continuo e l\'innovazione. Il mio obiettivo è costruire una carriera di successo, contribuendo con soluzioni efficienti e creative nel mercato tecnologico.',
-      cv: 'Scarica CV',
+    contact: {
       log: 'SYSTEM LOG',
       experience1: 'Tirocinio Analisi Dati',
       experience2: 'Marketing e Sistemi',
@@ -584,8 +615,22 @@ const translations = {
       },
       cta_text: 'Vuoi collaborare o hai visto qualcosa di interessante?',
       cta_button: 'Contattami'
-    },
-    footer: {
+    },    sql: {
+      title: 'QUERY SQL',
+      subtitle: 'Esempi di query SQL che dimostrano le mie competenze nella manipolazione e analisi dei dati.',
+      tasy: {
+        title: 'Query Tasy'
+      },
+      optimization: {
+        title: 'Ottimizzazioni'
+      },
+      reports: {
+        title: 'Relazioni'
+      },
+      complex: {
+        title: 'Query Complesse'
+      }
+    },    footer: {
       social: 'Social',
       copyright: '© 2026 Ryan Panzarini Paes. Tutti i sistemi operativi.'
     },
