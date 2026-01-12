@@ -84,6 +84,7 @@ document.addEventListener('DOMContentLoaded', function() {
             <a href="#skills" class="text-gray-300 hover:text-primary text-lg py-2 transition-all duration-300">Skills</a>
             <a href="#projects" class="text-gray-300 hover:text-primary text-lg py-2 transition-all duration-300">Projects</a>
             <a href="#about" class="text-gray-300 hover:text-primary text-lg py-2 transition-all duration-300">About</a>
+            <a href="#sql" class="text-gray-300 hover:text-primary text-lg py-2 transition-all duration-300">SQL</a>
             <a href="#contact" class="text-gray-300 hover:text-primary text-lg py-2 transition-all duration-300">Contact</a>
             <div class="border-t border-gray-700 pt-6 mt-6">
                 <div class="flex items-center gap-3">
