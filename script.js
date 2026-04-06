@@ -98,6 +98,17 @@ document.addEventListener('DOMContentLoaded', function() {
                         <img src="imagens/bandeira-do-brasil_1401-76.avif" alt="PT" class="w-full h-full object-cover">
                     </div>
                 </div>
+                <div class="flex items-center justify-center gap-3 mt-4">
+                    <a href="https://www.instagram.com/ryanpanzarini/" target="_blank" rel="noopener noreferrer" class="top-social-link" aria-label="Instagram">
+                        <i data-feather="instagram" class="w-4 h-4"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/ryan-panzarini-137521265/" target="_blank" rel="noopener noreferrer" class="top-social-link" aria-label="LinkedIn">
+                        <i data-feather="linkedin" class="w-4 h-4"></i>
+                    </a>
+                    <a href="https://github.com/RyanPanzarini" target="_blank" rel="noopener noreferrer" class="top-social-link" aria-label="GitHub">
+                        <i data-feather="github" class="w-4 h-4"></i>
+                    </a>
+                </div>
             </div>
         </div>
     `;
@@ -360,4 +371,8 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         });
     });
+
+    if (window.feather) {
+        feather.replace();
+    }
 });

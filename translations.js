@@ -82,6 +82,10 @@ const translations = {
         title: 'IncluiPG',
         desc: 'Sistema em desenvolvimento com a proposta de aumentar a inclusão e acessibilidade na cidade de Ponta Grossa.'
       },
+      lmautomoveis: {
+        title: 'L&M Automóveis',
+        desc: 'Site institucional em produção para a loja L&M Automóveis, desenvolvido para apresentar o estoque de seminovos, transmitir credibilidade e facilitar o contato com clientes em uma experiência moderna e responsiva.'
+      },
       firehouse: {
         title: 'Fire House Club',
         desc: 'Aplicação front-end de página única desenvolvida com HTML5 semântico, CSS3 responsivo e JavaScript Vanilla. Implementa componentes interativos client-side (contador regressivo em tempo real e rolador de dados), integração com plataformas externas (Kick, YouTube, Instagram, Discord) e estrutura otimizada para baixo acoplamento, alta performance e fácil manutenção. Projeto estático, orientado à experiência do usuário e identidade visual temática.'
@@ -101,7 +105,9 @@ const translations = {
     },
     common: {
       live: 'Demo Ao Vivo',
-      source: 'Código Fonte'
+      source: 'Código Fonte',
+      production: 'Em Produção',
+      stock: 'Ver Estoque'
     },
     contact: {
       title: 'CONEXÃO DO SISTEMA',
@@ -110,6 +116,9 @@ const translations = {
       },
       github: {
         title: 'GitHub'
+      },
+      linkedin: {
+        title: 'LinkedIn'
       }
     },
     repositories: {
@@ -250,6 +259,10 @@ const translations = {
         title: 'IncluiPG',
         desc: 'Sistema en desarrollo con el objetivo de aumentar la inclusión y accesibilidad en la ciudad de Ponta Grossa.'
       },
+      lmautomoveis: {
+        title: 'L&M Automóveis',
+        desc: 'Sitio institucional en producción para L&M Automóveis, creado para exhibir el inventario de vehículos, reforzar la credibilidad de la marca y facilitar el contacto con clientes con una experiencia moderna y responsive.'
+      },
       firehouse: {
         title: 'Fire House Club',
         desc: 'Aplicación front-end de una sola página desarrollada con HTML5 semántico, CSS3 responsivo y JavaScript Vanilla. Implementa componentes interactivos del lado del cliente, integración con plataformas externas y una estructura optimizada para alto rendimiento y fácil mantenimiento.'
@@ -269,12 +282,15 @@ const translations = {
     },
     common: {
       live: 'Demo en Vivo',
-      source: 'Código Fuente'
+      source: 'Código Fuente',
+      production: 'En Producción',
+      stock: 'Ver Inventario'
     },
     contact: {
       title: 'CONECTAR',
       email: { title: 'Correo' },
-      github: { title: 'GitHub' }
+      github: { title: 'GitHub' },
+      linkedin: { title: 'LinkedIn' }
     },
     repositories: {
       title: 'EXPLORA MI CÓDIGO',
@@ -414,6 +430,10 @@ const translations = {
         title: 'IncluiPG',
         desc: 'A system under development with the goal of increasing inclusion and accessibility in the city of Ponta Grossa.'
       },
+      lmautomoveis: {
+        title: 'L&M Automóveis',
+        desc: 'Production website for L&M Automóveis, built to showcase the vehicle inventory, strengthen brand credibility and streamline customer contact through a modern, responsive experience.'
+      },
       firehouse: {
         title: 'Fire House Club',
         desc: 'Single-page front-end application developed with semantic HTML5, responsive CSS3 and Vanilla JavaScript. Implements client-side interactive components (real-time countdown timer and dice roller), integration with external platforms (Kick, YouTube, Instagram, Discord) and optimized structure for low coupling, high performance and easy maintenance. Static project, oriented to user experience and thematic visual identity.'
@@ -433,7 +453,9 @@ const translations = {
     },
     common: {
       live: 'Live Demo',
-      source: 'Source Code'
+      source: 'Source Code',
+      production: 'Live in Production',
+      stock: 'View Inventory'
     },
     contact: {
       title: 'SYSTEM CONNECTION',
@@ -442,6 +464,9 @@ const translations = {
       },
       github: {
         title: 'GitHub'
+      },
+      linkedin: {
+        title: 'LinkedIn'
       }
     },
     repositories: {
@@ -582,6 +607,10 @@ const translations = {
         title: 'IncluiPG',
         desc: 'Un sistema in fase di sviluppo con l\'obiettivo di aumentare l\'inclusione e l\'accessibilità nella città di Ponta Grossa.'
       },
+      lmautomoveis: {
+        title: 'L&M Automóveis',
+        desc: 'Sito istituzionale già in produzione per L&M Automóveis, creato per mostrare l\'inventario dei veicoli, rafforzare la credibilità del marchio e facilitare il contatto con i clienti con un\'esperienza moderna e responsive.'
+      },
       firehouse: {
         title: 'Fire House Club',
         desc: 'Applicazione front-end a singola pagina sviluppata con HTML5 semantico, CSS3 reattivo e JavaScript vanilla. Implementa componenti interattivi lato client (timer conto alla rovescia in tempo reale e dado virtuale), integrazione con piattaforme esterne (Kick, YouTube, Instagram, Discord) e struttura ottimizzata per basso accoppiamento, alte prestazioni e facile manutenzione. Progetto statico, orientato all\'esperienza utente e all\'identità visiva tematica.'
@@ -601,7 +630,9 @@ const translations = {
     },
     common: {
       live: 'Demo Live',
-      source: 'Codice Sorgente'
+      source: 'Codice Sorgente',
+      production: 'In Produzione',
+      stock: 'Vedi Inventario'
     },
     contact: {
       log: 'SYSTEM LOG',
@@ -616,6 +647,9 @@ const translations = {
       },
       github: {
         title: 'GitHub'
+      },
+      linkedin: {
+        title: 'LinkedIn'
       }
     },
     repositories: {

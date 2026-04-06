@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="800" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#020617"/>
+      <stop offset="1" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="120" y1="120" x2="900" y2="640" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0ea5e9"/>
+      <stop offset="1" stop-color="#14b8a6"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" rx="28" fill="url(#bg)"/>
+  <rect x="40" y="40" width="1120" height="720" rx="24" fill="#0b1120" stroke="#1f2937"/>
+  <rect x="40" y="40" width="1120" height="56" rx="24" fill="#111827"/>
+  <circle cx="82" cy="68" r="8" fill="#ef4444"/>
+  <circle cx="108" cy="68" r="8" fill="#f59e0b"/>
+  <circle cx="134" cy="68" r="8" fill="#22c55e"/>
+  <text x="180" y="74" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="22" font-weight="700">L&amp;M Automóveis</text>
+  <text x="100" y="180" fill="#67e8f9" font-family="Arial, sans-serif" font-size="18" font-weight="700">SITE EM PRODUÇÃO</text>
+  <text x="100" y="245" fill="white" font-family="Arial, sans-serif" font-size="46" font-weight="800">SUA NOVA CONQUISTA</text>
+  <text x="100" y="295" fill="white" font-family="Arial, sans-serif" font-size="46" font-weight="800">COMEÇA AQUI</text>
+  <text x="100" y="340" fill="#94a3b8" font-family="Arial, sans-serif" font-size="22">Estoque digital, visual moderno e contato rápido para clientes.</text>
+  <rect x="100" y="390" width="190" height="48" rx="12" fill="url(#accent)"/>
+  <text x="148" y="421" fill="#020617" font-family="Arial, sans-serif" font-size="20" font-weight="800">Ver Estoque</text>
+  <rect x="720" y="150" width="330" height="220" rx="22" fill="#111827" stroke="#1f2937"/>
+  <text x="748" y="195" fill="#e2e8f0" font-family="Arial, sans-serif" font-size="24" font-weight="700">Destaques</text>
+  <rect x="748" y="220" width="120" height="120" rx="16" fill="#0f172a" stroke="#0ea5e9"/>
+  <rect x="882" y="220" width="140" height="18" rx="9" fill="#1f2937"/>
+  <rect x="882" y="250" width="110" height="16" rx="8" fill="#334155"/>
+  <rect x="882" y="282" width="90" height="16" rx="8" fill="#0ea5e9" opacity="0.8"/>
+  <rect x="882" y="314" width="120" height="16" rx="8" fill="#14b8a6" opacity="0.8"/>
+  <rect x="100" y="520" width="260" height="130" rx="18" fill="#111827" stroke="#1f2937"/>
+  <rect x="390" y="520" width="260" height="130" rx="18" fill="#111827" stroke="#1f2937"/>
+  <rect x="680" y="520" width="260" height="130" rx="18" fill="#111827" stroke="#1f2937"/>
+  <text x="130" y="575" fill="#67e8f9" font-family="Arial, sans-serif" font-size="38" font-weight="800">500+</text>
+  <text x="130" y="612" fill="#94a3b8" font-family="Arial, sans-serif" font-size="20">Veículos vendidos</text>
+  <text x="420" y="575" fill="#67e8f9" font-family="Arial, sans-serif" font-size="38" font-weight="800">98%</text>
+  <text x="420" y="612" fill="#94a3b8" font-family="Arial, sans-serif" font-size="20">Clientes satisfeitos</text>
+  <text x="710" y="575" fill="#67e8f9" font-family="Arial, sans-serif" font-size="38" font-weight="800">+13 anos</text>
+  <text x="710" y="612" fill="#94a3b8" font-family="Arial, sans-serif" font-size="20">No mercado</text>
+</svg>
